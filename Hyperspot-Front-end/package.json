@@ -1,0 +1,61 @@
+{
+  "name": "Hyoerspot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "axios": "^0.24.0",
+    "bignumber.js": "^9.0.1",
+    "core-js": "^3.6.5",
+    "dat.gui": "^0.7.7",
+    "decimal.js": "^10.3.1",
+    "element-ui": "^2.15.6",
+    "highcharts": "^9.1.2",
+    "highcharts-vue": "^1.4.0",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.1",
+    "swiper": "^6.8.0",
+    "vec2": "^1.6.1",
+    "vue": "^2.6.11",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-router": "^3.5.2",
+    "vuex": "^3.6.2",
+    "web3": "^1.5.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "gsap": "^3.7.1",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

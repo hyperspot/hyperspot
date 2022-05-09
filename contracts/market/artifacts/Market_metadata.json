@@ -1,0 +1,783 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "ids",
+						"type": "uint256"
+					}
+				],
+				"name": "DaiAPY",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "DaiList",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "Dai",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY3",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "borrowingTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "mortgageRate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "uamount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "DaiMarketList",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "Dai",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY3",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "borrowingTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "mortgageRate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "uamount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "times",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amounts",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "mortgageAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "borrow",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "borrowDaiList",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "Dai",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY3",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "borrowingTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "mortgageRate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "uamount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "borrowEthList",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "eth",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY3",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "borrowingTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "mortgageRate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "uamount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "borrowUsdcList",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "usdc",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY3",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "borrowingTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "mortgageRate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "uamount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amounts",
+						"type": "uint256"
+					}
+				],
+				"name": "conversion",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "ids",
+						"type": "uint256"
+					}
+				],
+				"name": "ethAPY",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "ethList",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "eth",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY3",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "borrowingTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "mortgageRate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "uamount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "ethMarketList",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "eth",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY3",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "borrowingTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "mortgageRate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "uamount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_usdc",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_Dai",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_eth",
+						"type": "address"
+					}
+				],
+				"name": "init",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amounts",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "times",
+						"type": "uint256"
+					}
+				],
+				"name": "mortgageMarket",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amounts",
+						"type": "uint256"
+					}
+				],
+				"name": "repayment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "oneyear",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "twoyear",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "threeyear",
+						"type": "uint256"
+					}
+				],
+				"name": "setApy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "ids",
+						"type": "uint256"
+					}
+				],
+				"name": "usdcAPY",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "usdcList",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "usdc",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY3",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "borrowingTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "mortgageRate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "uamount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "usdcMarketList",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "usdc",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "APY3",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "borrowingTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "mortgageRate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "uamount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"localhost/contracts/market/Market.sol": "Market"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"localhost/contracts/interface/IERC20.sol": {
+			"keccak256": "0x686665a5e5857dc9dd781b6fa9cd8dbe80e3677a1fce24ae8236879b1ebc32db",
+			"urls": [
+				"bzz-raw://7ac09e0137b3920186afea737fa4953319cdf4bb536a64175f0f365df8c4ee00",
+				"dweb:/ipfs/Qmd3UgNPsp4THdu44tX1P3b5tTXqGJZYgKddy6xyxqWhLw"
+			]
+		},
+		"localhost/contracts/market/Market.sol": {
+			"keccak256": "0xe6c7f5981e0b1c6e78072977a2ff2ecd89428930e5a52f00be9eca0c57d7a17a",
+			"urls": [
+				"bzz-raw://c6a25c7194fe388eaa4eccb6d0c5d209b2487391c74cbfedc81a02aebfeb44e2",
+				"dweb:/ipfs/QmY1jDaHaJRsHzPxJJDazvAxwz2nKSwA4h4TSGNqxGqDgx"
+			]
+		}
+	},
+	"version": 1
+}

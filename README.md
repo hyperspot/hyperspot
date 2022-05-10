@@ -1,5 +1,6 @@
 ![](https://raw.githubusercontent.com/hyperspot/Oasis-Bloom-hyperspot/main/Hyperspot-UI/Hyperspot.jpeg)
 
+
 ## Project Name
 
 Hyperspot Platform

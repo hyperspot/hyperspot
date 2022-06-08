@@ -169,8 +169,6 @@ contract Market {
                IERC20(cusdc).transferFrom(address(this),msg.sender,usdcList[id2-1].uamount);
             }
         }
-        
-
         else if(token==Dai){
              if(times==1){
                   DaiInfo memory dinfo=DaiInfo({

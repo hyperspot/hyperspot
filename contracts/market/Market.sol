@@ -61,7 +61,6 @@ contract Market {
         usdc=_usdc;
         Dai=_Dai;
         eth=_eth;
-
     }
     function setApy(address token,uint oneyear,uint twoyear,uint threeyear)public{
         //require(msg.sender==address(this),"No permission to modify");
@@ -79,7 +78,6 @@ contract Market {
                     uamount:0
                 });
             usdcMarketList.push(uinfo);
-        
         }
         else if(token==Dai){
                 DaiInfo memory uinfo=DaiInfo({

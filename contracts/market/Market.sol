@@ -1,5 +1,6 @@
 pragma solidity ^0.8.0;
 import '../interface/IERC20.sol';
+
 contract Market {
     address usdc;
     address Dai;
@@ -62,6 +63,7 @@ contract Market {
         Dai=_Dai;
         eth=_eth;
     }
+    
     function setApy(address token,uint oneyear,uint twoyear,uint threeyear)public{
         //require(msg.sender==address(this),"No permission to modify");
         require(token==usdc||token==Dai||token==eth,"Please enter the correct token address");

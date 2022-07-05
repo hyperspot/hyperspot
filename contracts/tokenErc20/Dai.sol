@@ -14,10 +14,12 @@ contract Dai is ERC20{
         require(msg.sender == admin);
         _;
     }
+    
     function changeOwner(address manager) external _isOwner {
         admin = manager;
         emit AdminChange(msg.sender,manager);
     }
+    
     function burn(address account, uint256 amount) external _isOwner{
         _burn(account, amount);
     }

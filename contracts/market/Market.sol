@@ -28,6 +28,7 @@ contract Market {
     usdcInfo[] public usdcList;
     usdcInfo[] public borrowUsdcList;
     mapping(address=>usdcInfo) userusdcInfo;
+    
     struct DaiInfo{
         address Dai;
         uint APY;

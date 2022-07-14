@@ -113,7 +113,6 @@ contract Market {
                 });   
             ethMarketList.push(uinfo);
         }
-       
 
     }
     

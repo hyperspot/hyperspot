@@ -23,6 +23,7 @@ contract Market {
         uint amount;
         uint uamount;
     }
+    
     usdcInfo[] public usdcMarketList;
     usdcInfo[] public usdcList;
     usdcInfo[] public borrowUsdcList;

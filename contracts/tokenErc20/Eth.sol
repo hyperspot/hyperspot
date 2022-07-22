@@ -21,7 +21,6 @@ contract Eth is ERC20{
         emit AdminChange(msg.sender,manager);
     }
     
-    
     function burn(address account, uint256 amount) external _isOwner{
         _burn(account, amount);
     }

@@ -40,6 +40,7 @@ contract Market {
         uint amount;
         uint uamount;
     }
+    
     DaiInfo[]public DaiMarketList;
     DaiInfo[]public DaiList;
     DaiInfo[] public borrowDaiList;

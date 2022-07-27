@@ -138,6 +138,7 @@ contract Market {
                 IERC20(token).transferFrom(msg.sender,address(this),amounts);
                 IERC20(cusdc).transferFrom(address(this),msg.sender,usdcList[id2-1].uamount);
             }
+            
             else  if(times==2){
                 usdcInfo memory uinfo=usdcInfo({
                     usdc :token,

@@ -11,4 +11,3 @@ Hyperspot is an Ethereum-based fixed-rate lending platform. A fixed interest rat
 ## Features
 
 It will be a challenge for users to match loans to each other under the exact conditions.Because of the large pools of liquidity, banks have traditionally acted as intermediaries - charging high fees - for borrowers and lenders to interact with them.Hyperspot eliminates intermediaries and maintains on-chain pools of liquidity that are readily available as off-the-shelf counterparties for individual users.
-

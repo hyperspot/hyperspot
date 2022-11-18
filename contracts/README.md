@@ -1,5 +1,5 @@
 contract
-## ##Dependencies##
+## Dependencies
 
 - Linux , Mac or Windows
 

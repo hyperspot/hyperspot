@@ -1,7 +1,7 @@
 contract
 ## Dependencies
 
-- Linux , Mac or Windows
+Linux , Mac or Windows
 
 ## test-net-contract
 
@@ -9,13 +9,13 @@ test-network:Ropsten test network
 
 ## Contract introduction
 
--Market:Free matching between lenders and borrowers. 
+- Market:Free matching between lenders and borrowers. 
 
--Usdc:Test the tokens;
+- Usdc:Test the tokens;
 
--Dai:Test the tokens;
+- Dai:Test the tokens;
 
--Eth:Test the tokens;
+- Eth:Test the tokens;
 
 ## **Installing**
 

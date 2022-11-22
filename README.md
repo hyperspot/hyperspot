@@ -2,7 +2,6 @@
 
 ## Project Name
 
-Hyperspot Platform
 
 ## Overview
 

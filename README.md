@@ -1,8 +1,5 @@
 ![](https://raw.githubusercontent.com/hyperspot/Oasis-Bloom-hyperspot/main/Hyperspot-UI/Hyperspot.jpeg)
 
-## Project Name
-
-
 ## Overview
 
 Hyperspot is an Ethereum-based fixed-rate lending platform. A fixed interest rate is different from a variable or stable interest rate because the interest rate does not change over the term of the loan.

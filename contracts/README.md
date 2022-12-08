@@ -1,4 +1,3 @@
-contract
 ## Dependencies
 
 Linux , Mac or Windows

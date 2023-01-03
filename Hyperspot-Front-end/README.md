@@ -1,6 +1,4 @@
-# Front end introduce
-
-# lendHyperspot
+# LendHyperspot
 
 ## Project setup
 ```

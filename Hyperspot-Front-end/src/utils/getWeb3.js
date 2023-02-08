@@ -18,8 +18,6 @@ function getWeb3(provider) {
             let web3 = new Web3(web3js.currentProvider)
             curProvider = web3js.currentProvider
 
-
-
             resolve({
                 web3() {
                     return web3
